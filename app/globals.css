@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@netgoat/ui/styles.css";
+
+@source "../../../packages/design-system/src";
+@source "./**/*.{ts,tsx}";
+@source "../components/**/*.{ts,tsx}";
