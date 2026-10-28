@@ -6,7 +6,7 @@
       "name": "cas-admin",
       "dependencies": {
         "@netgoat/ui": "workspace:*",
-        "cal-sans": "^1.0.1",
+        "cal-sans": "^2.1.1",
         "lucide-react": "^0.562.0",
         "motion": "^12.43.0",
         "next": "^15.5.4",
@@ -379,7 +379,7 @@
 
     "browserslist": ["browserslist@4.29.5", "", { "dependencies": { "baseline-browser-mapping": "^2.11.33", "caniuse-lite": "^1.0.30001819", "electron-to-chromium": "^1.5.464", "node-releases": "^2.0.60", "update-browserslist-db": "^1.3.4" }, "bin": { "browserslist": "cli.js" } }, "sha512-khTmKu5NGYTotqcYo8Bew2k4RAE9PuXRSFRXG2lQBrCEQHyeQ/vX6gKMxfokwywBsLiXZMnHsmWMG1pnO8J7uQ=="],
 
-    "cal-sans": ["cal-sans@1.0.1", "", {}, "sha512-XwN3/7jez8WmFVcNnNqO2K9lh133KiIcURCyGFnSM+ZmNZ8zIcOTNfr3SpenLAkRceYsq+fQNX/PL4C1rIkEPQ=="],
+    "cal-sans": ["cal-sans@2.1.1", "", {}, "sha512-Aze+2yZNbKtzUvi17PjHkmja1CMvse1oyPs3GTn61nfNvaJhVGf13qtwgG3Zu1IunVL1mTVpaWcBBOPpTN0Dkg=="],
 
     "call-bind": ["call-bind@1.0.9", "", { "dependencies": { "call-bind-apply-helpers": "^1.0.2", "es-define-property": "^1.0.1", "get-intrinsic": "^1.3.0", "set-function-length": "^1.2.2" } }, "sha512-a/hy+pNsFUTR+Iz8TCJvXudKVLAnz/DyeSUo10I5yvFDQJBFU2s9uqQpoSrJlroHUKoKqzg+epxyP9lqFdzfBQ=="],
 
