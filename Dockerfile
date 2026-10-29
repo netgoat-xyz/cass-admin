@@ -12,7 +12,10 @@ FROM oven/bun:1.4.0-alpine AS builder
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1 \
     NODE_ENV=production
-COPY --from=deps /app/node_modules ./node_modules
+# Bun's isolated linker puts workspace dependencies in
+# packages/design-system/node_modules, so the whole install tree is copied
+# rather than only the root node_modules.
+COPY --from=deps /app ./
 COPY . .
 RUN bun run build
 
