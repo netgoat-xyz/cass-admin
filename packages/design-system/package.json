@@ -21,7 +21,7 @@
   "dependencies": {
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "motion": "^12.43.0",
+    "motion": "^14.6.0",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
